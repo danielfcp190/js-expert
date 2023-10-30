@@ -1,0 +1,11 @@
+nvm install 18 
+nvm install --lts -> get most recent long-term support version
+nvm list
+nvm use 18
+node -v
+nvm alias default 18 -> make the node version as default for new terminals
+
+create .nvmrc
+nvm use ---> acchieve nvmrc
+
+node -v > .nvmrc --> save the version on the file for this project
