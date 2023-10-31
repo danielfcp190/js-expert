@@ -1,0 +1,3 @@
+$ node 
+$ fs.readFileSync('./mocks/threeItems-valid.csv') --> return buffer
+$ fs.readFileSync('./mocks/threeItems-valid.csv', 'utf8') --> return string
